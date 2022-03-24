@@ -30,9 +30,8 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
-.paragraph{
-
-font-weight: bold;
+.paragraph {
+  font-weight: bold;
 }
 .btns {
   color: white;
@@ -279,7 +278,7 @@ font-weight: bold;
 }
 
 .hero-2 {
-  background: url("../assets/thumb-1920-564931.jpg");
+  background: url("../assets/thumb-1920-553248.jpg");
   object-fit: cover;
   background-size: cover;
   height: 100vh !important;
