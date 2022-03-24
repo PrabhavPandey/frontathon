@@ -96,16 +96,19 @@ font-weight: bold;
   padding: 0px 10px;
 }
 .hero-1 {
-  background: url("../assets/bg.svg");
+  background: url("../assets/1280x720_grand-theft-auto-grand-theft-auto-online-gta-5.jpg");
   object-fit: cover;
   background-size: cover;
   height: 100vh !important;
-  transition: transform 0.8s;
+
   overflow-x: hidden;
 }
 
-.hero-1:hover {
-  transform: scale(1.1);
+.hero-pic {
+  transition: transform 0.8s;
+}
+.hero-pic:hover {
+  transform: scale(1.8);
 }
 
 .hero-2 {
