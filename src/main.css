@@ -73,6 +73,9 @@ body {
   align-items: center;
   justify-content: center;
   margin-left: 40%;
+  text-decoration: none;
+  color:black;
+  text-decoration: none !important;
   /* Clean style */
 
   --button-text-color: var(--background-color);
@@ -83,7 +86,9 @@ body {
   --button-inner-border-color: transparent;
   --button-bits-color: var(--background-color);
   --button-bits-color-hover: var(--button-background-color);
-
+  margin-top: 65vh;
+  text-decoration: none;
+  color:black;
   position: relative;
   padding: 8px;
   margin-bottom: 20px;
@@ -91,6 +96,8 @@ body {
   font-weight: bold;
   font-size: 14px;
   transition: all 0.15s ease;
+  
+  
 }
 
 .btnss::before,
@@ -105,6 +112,7 @@ body {
   transition: all 0.15s ease;
   align-items: center;
   justify-content: center;
+  
 }
 
 .btnss::before {
@@ -140,6 +148,13 @@ body {
   bottom: 3px;
 }
 
+.dadri-img{
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+  margin-top: 10px;
+  position: relative;
+}
 .btnss__inner {
   position: relative;
   display: block;
@@ -149,6 +164,8 @@ body {
   align-items: center;
   justify-content: center;
   box-shadow: inset 0px 0px 0px 1px var(--button-inner-border-color);
+  text-decoration: none;
+  color:black;
 }
 
 .btnss__inner::before {
