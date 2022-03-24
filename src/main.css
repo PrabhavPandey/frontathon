@@ -52,11 +52,11 @@ body {
   margin-left: 10px;
 }
 
-.button-design{
+.button-design {
   align-items: center;
   justify-content: center;
   text-align: center;
-  
+
   padding: 10px;
 }
 
@@ -72,36 +72,37 @@ body {
   cursor: pointer;
   align-items: center;
   justify-content: center;
-  margin-left:40%;
+  margin-left: 40%;
   /* Clean style */
-  
+
   --button-text-color: var(--background-color);
   --button-text-color-hover: var(--button-background-color);
-  --border-color: #7D8082;
+  --border-color: #7d8082;
   --button-background-color: #ece8e1;
   --highlight-color: #e4512c;
   --button-inner-border-color: transparent;
   --button-bits-color: var(--background-color);
   --button-bits-color-hover: var(--button-background-color);
-  
+
   position: relative;
   padding: 8px;
   margin-bottom: 20px;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
-  transition: all .15s ease;
+  transition: all 0.15s ease;
 }
 
 .btnss::before,
 .btnss::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
-  right: 0; left: 0;
+  right: 0;
+  left: 0;
   height: calc(50% - 5px);
   border: 1px solid var(--border-color);
-  transition: all .15s ease;
+  transition: all 0.15s ease;
   align-items: center;
   justify-content: center;
 }
@@ -151,10 +152,11 @@ body {
 }
 
 .btnss__inner::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   width: 2px;
   align-items: center;
   justify-content: center;
@@ -163,26 +165,29 @@ body {
 }
 
 .btnss__inner::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
-  right: 0; bottom: 0;
+  right: 0;
+  bottom: 0;
   width: 4px;
   height: 4px;
   align-items: center;
   justify-content: center;
   background-color: var(--button-bits-color);
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 
 .btnss__slide {
   display: block;
   position: absolute;
-  top: 0; bottom: -1px; left: -8px;
+  top: 0;
+  bottom: -1px;
+  left: -8px;
   width: 0;
   background-color: var(--highlight-color);
   transform: skew(-15deg);
-  transition: all .2s ease;
+  transition: all 0.2s ease;
   align-items: center;
   justify-content: center;
 }
@@ -195,7 +200,6 @@ body {
 
 .btnss:hover {
   color: var(--button-text-color-hover);
-
 }
 
 .btnss:hover .btnss__slide {
@@ -225,7 +229,6 @@ body {
 
 .btn-1 {
   padding: 0px 10px;
-
 }
 
 .btn-1:hover {
@@ -262,7 +265,7 @@ body {
   padding: 0px 10px;
 }
 .hero-1 {
-  background: url("../assets/1280x720_grand-theft-auto-grand-theft-auto-online-gta-5.jpg");
+  background: url("../assets/bg.png");
   object-fit: cover;
   background-size: cover;
   height: 100vh !important;
@@ -271,11 +274,15 @@ body {
 }
 
 .hero-pic {
+  transform: scale(1.9);
+  overflow-y: hidden !important;
+}
+/* .hero-pic {
   transition: transform 0.8s;
 }
 .hero-pic:hover {
   transform: scale(1.8);
-}
+} */
 
 .hero-2 {
   background: url("../assets/thumb-1920-553248.jpg");
