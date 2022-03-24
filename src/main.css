@@ -7,7 +7,90 @@ body {
   position: relative;
   height: 100%;
 }
+.logo {
+  padding-top: 10px;
+}
+.nav{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: black;
+  display:flex;
+  justify-content: center;
+  justify-content:space-evenly;
+}
+.btns{
+  color: white;
+  display:flex;
+  text-decoration: none;
+}
 
+.btn-1{
+  padding:0px 10px;
+}
+.btn-1:hover{
+  text-decoration: underline;
+}
+.btn-2{
+  padding:0px 10px;
+}
+.btn-2:hover{
+  text-decoration: underline;
+}
+.btn-3{
+  padding:0px 10px;
+}
+.btn-3:hover{
+  text-decoration: underline;
+}
+.btn-4{
+  padding:0px 10px;
+}
+.btn-4:hover{
+  text-decoration: underline;
+}
+.btn-5{
+  padding:0px 10px;
+}
+.btn-5:hover{
+  text-decoration: underline;
+}
+.buy{
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+.hero-1{
+  background: url("../assets/bg.svg");
+  object-fit: cover;
+  background-size: cover;
+  height: 100vh !important;
+}
+.hero-2{
+  background: url("../assets/thumb-1920-564931.jpg");
+  object-fit: cover;
+  background-size: cover;
+  height: 100vh !important;
+}
+.hero-3{
+  background: url("../assets/thumb-1920-587526.jpg");
+  object-fit: cover;
+  background-size: cover;
+  height: 100vh !important;
+}
+.hero-4{
+  background: url("../assets/thumb-1920-553248.jpg");
+  object-fit: cover;
+  background-size: cover;
+  height: 100vh !important;
+}
+.hero-5{
+  background: url("../assets/wp5334088-gta-5-4k-wallpapers.jpg");
+  object-fit: cover;
+  background-size: cover;
+  height: 100vh !important;
+}
+hero-4
 .hero-txt {
   font-family: "gta";
   font-size: 60px;
@@ -18,10 +101,14 @@ body {
   color: white;
   outline: black;
 }
-
-section {
-  background: url("../assets/bg.svg");
-  object-fit: cover;
-  background-size: cover;
-  height: 100vh !important;
+.hero-pic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60vh;
+}
+.scroll-text{
+  color: white;
+  justify-content: center;
+  text-align: center;
 }
