@@ -1,13 +1,13 @@
 @font-face {
   font-family: "gta"; /*a name to be used later*/
-  src: url("../pricedow.ttf"); /*URL to font*/
+  src: url("../assets/pricedow.ttf"); /*URL to font*/
 }
 
 body {
   position: relative;
   overflow-x: hidden;
   overflow-y: hidden;
-  background: url("../bg.svg");
+  background: url("../assets/bg.svg");
   object-fit: cover;
   background-size: cover;
   height: 100%;
@@ -29,4 +29,6 @@ nav {
   position: absolute;
   top: 50% !important;
   left: 40%;
+  color: white;
+  outline: black;
 }
