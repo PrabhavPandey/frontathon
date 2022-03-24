@@ -27,10 +27,13 @@ body {
 
 .full-content-wrapper {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: space-around;
 }
+.paragraph{
 
+font-weight: bold;
+}
 .btns {
   color: white;
   display: flex;
@@ -40,12 +43,14 @@ body {
 .text-wrapper {
   font-family: "Open Sans";
   font-weight: 500;
-  background-color: rgba(255, 255, 255, 0.322);
+  background-color: rgba(255, 255, 255, 0.418);
+  backdrop-filter: blur(2px);
   border-radius: 10px;
   padding: 20px;
   max-width: 60ch;
   align-self: flex-start;
-  margin-top: 60px;
+  margin-top: 12%;
+  margin-left: 2%;
 }
 
 .title {
