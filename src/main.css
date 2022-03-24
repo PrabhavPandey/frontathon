@@ -273,16 +273,12 @@ body {
   overflow-x: hidden;
 }
 
-.hero-pic {
-  transform: scale(1.9);
-  overflow-y: hidden !important;
-}
-/* .hero-pic {
+.hero-1 {
   transition: transform 0.8s;
 }
-.hero-pic:hover {
-  transform: scale(1.8);
-} */
+.hero-1:hover {
+  transform: scale(1.04);
+}
 
 .hero-2 {
   background: url("../assets/thumb-1920-553248.jpg");
